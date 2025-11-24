@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.125rem 0.25rem;
+	font-size: 0.75rem;
+	font-weight: 700;
+	line-height: 1;
+	border-radius: 0.5rem;
+	white-space: nowrap;
+	user-select: none;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bold;
+	font-style: normal;
+	color: #1b2134;
+}
+
+/* Natural variant */
+.natural {
+	background-color: #f1f1f7;
+}
+
+/* Positive variant */
+.positive {
+	background-color: #b1ffc7;
+}
+
+/* Negative variant */
+.negative {
+	background-color: #ffbfb1;
+}
+
+@media (min-width: 769px) {
+	.badge {
+		padding: 0.25rem 0.5rem;
+		border-radius: 0.75rem;
+	}
+}
