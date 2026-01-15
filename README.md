@@ -1,6 +1,36 @@
-# Frontend Interview - Design System
+📘 Tabs Component — Design System Challenge
+This repository contains my implementation of a reusable, accessible Tabs component developed as part of a front-end take-home test. The goal of this project is to demonstrate clean React architecture, component reusability, TypeScript typing, and adherence to modern accessibility and styling standards within a Design System context.
 
-Hey 👋
+🧩 Key Features
+Fully accessible and keyboard-navigable Tabs.
+
+Supports multiple design variants based on provided Figma specifications.
+
+Extensible API for adding customizable Badges to individual Tabs.
+
+Variant support for multiple Badge styles.
+
+Implemented using React + TypeScript with raw HTML/CSS (no CSS frameworks).
+
+Optional integration with Storybook for interactive component documentation.
+
+🛠 Tech Stack
+React (Hooks-based)
+
+TypeScript for static typing and improved developer experience.
+
+CSS / CSS-in-JS / SASS (written from scratch).
+
+Storybook (optional) for visual demonstration.
+
+🎯 Objectives
+Build a consistent, maintainable, and strongly typed component for a scalable design system.
+
+Follow accessibility and front-end development best practices.
+
+Exhibit clean code structure, reusability, and an intuitive API design.
+
+💡 This project is part of a technical evaluation and is not intended for production or broader development use.
 
 This is the base repository for the home test. The repository is created with `vite` and is empty, but contains some packages already installed, in particular:
 
